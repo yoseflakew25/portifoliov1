@@ -324,6 +324,14 @@ main {
     border-radius: 20px;
 }
 
+.avatar-box img {
+
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+}
 .info-content .name {
     /* color: var(--white-2); */
     color: #64FFDA;
@@ -607,6 +615,14 @@ main {
     background: var(--bg-gradient-onyx);
     border-radius: 14px;
     box-shadow: var(--shadow-1);
+}
+
+.testimonials-avatar-box img {
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
 }
 
 .testimonials-item-title {
