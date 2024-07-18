@@ -1,0 +1,110 @@
+.eachProject {
+    padding-bottom: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    color: var(--grey-color-3);
+    margin-top: 40px;
+   
+}
+
+.projectDetail {
+    margin: auto auto;
+    z-index: 9999;
+    background-color: transparent;
+}
+
+.projectImage {
+    width: 150rem;
+    height: auto;
+    object-fit: fit-content;
+    border-radius: 5px;
+    /* filter: grayscale(100%); */
+}
+
+.projectTitle { 
+    margin-top: 5px;
+}
+
+.projectDescription {
+    padding: 25px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: #0F172A;
+    line-height: 25px;
+    box-shadow: 2px 2px 1px 1px transparent;
+    border: 1px solid transparent;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s  ease-in-out;
+    -moz-transition: all 0.5s  ease-in-out;
+    -ms-transition: all 0.5s  ease-in-out;
+    -o-transition: all 0.5s  ease-in-out;
+}
+
+.eachProject:hover .projectDescription {
+    box-shadow: 2px 2px 1px 1px #60F3D1;
+}
+
+.eachProject:hover .projectImage {
+    box-shadow: 2px 2px 1px 1px #60F3D1;
+}
+
+
+
+.projectTechStack {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.projectTechStack li {
+    list-style: none;
+    display: inline;
+    margin-right: 15px;
+    font-size: 13px;
+    opacity: 0.8;
+    color: #60F3D1;
+}
+
+.alignLeft {
+    text-align: left;
+}
+
+.alignRight {
+    text-align: right;
+}
+
+.imageOverlap {
+    position: relative;
+    left: -100px;
+}
+
+.projectLink {
+    font-size: 20px;
+    margin-right: 15px;
+   
+}
+
+
+
+.projectLink:hover {
+    color: var(--text-green-color);
+}
+
+.githubAndOtherLInk {
+    display: flex;
+    gap: 1rem  ;
+    font-size: 1.5rem;
+   
+}
+
+.githubAndOtherLInk a {
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.githubAndOtherLInk a:hover {
+    color: #60F3D1;
+}

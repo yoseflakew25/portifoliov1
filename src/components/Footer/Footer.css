@@ -1,0 +1,88 @@
+.footerContainer {
+  font-size: 14px;
+  padding: 220px 0px 20px;
+  text-align: center;
+  /* display: flex;
+  justify-content: space-between;
+  margin: 0 50px; */
+
+}
+
+.footerContainer p {
+  margin-bottom: 10px;
+}
+
+.stickToSide {
+  float: left;
+}
+
+.contactList {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0px;
+  left: 50px;
+  gap: 1rem;
+
+}
+
+.contactList a:hover {
+  color: white;
+  transform: scale(1.1); /* Adjust the scale factor as needed */
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+.contactList a {
+
+  color: #64FFDA;
+  transition: color 0.3s ease; /* Add a smooth transition effect for color change */
+}
+
+.verticalLine {
+  height: 200px;
+  width: 0px;
+  border: 1px solid var(--clr-fg);
+  margin-left: 10px;
+}
+
+.email {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #64FFDA;
+}
+
+.email p{
+  position: fixed;
+  bottom: 300px;
+  right: -65px;
+  transform: rotate(90deg);
+  letter-spacing: 2px;
+}
+
+.email p:hover {
+  color: var(--text-green-color);
+}
+
+.moveRight {
+  position: fixed;
+  right: 55px;
+  bottom: 0px;
+  padding-right: -150px;
+}
+
+@keyframes socialHover {
+  to {
+      transform: scale(1.2);
+      color: var(--text-green-color)
+  }   
+}
+
+.footerRemark p {
+  font-family: var(--secondary-font);
+}
+

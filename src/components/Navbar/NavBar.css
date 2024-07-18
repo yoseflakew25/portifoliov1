@@ -1,0 +1,67 @@
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;
+    position: sticky;
+    top: 0px;
+    background-color: var(--main-bg-color);
+    z-index: 99999;
+    opacity: 0.95;
+    transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
+}
+
+.navBar.scrolled {
+    background-color: var(--clr-bg);
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    width: 40px;
+}
+
+.navBarItems ol {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.navBarItems ol a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.navBarItems ol a:hover {
+    text-decoration: underline;
+}
+
+.navBarItems li {
+    font-size: 13px;
+    display: inline;
+    margin-left: 16px;
+    font-weight: 700;
+}
+
+.navBarItems span {
+    margin-right: 4px;
+    color: #64FFDA;
+}
+
+.navBarItems li:hover {
+    animation-name: changeNavItemColor;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes changeNavItemColor {
+    to {
+        color: var(--text-green-color);
+    }
+}

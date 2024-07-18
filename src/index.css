@@ -1,0 +1,117 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  background-color: inherit;
+  color: inherit;
+
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;*/
+  font-size: inherit; 
+  box-shadow: none;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.2;
+  color: var(--clr-fg-alt);
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.3rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  
+}
+
+p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+button {
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 2.6rem;
+  }
+}
+
+
+.separator {
+  width: 100%;
+  height: 1px;
+  background: var(--jet);
+  margin: 16px 0;
+}
+
+
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
