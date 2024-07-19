@@ -1,0 +1,10 @@
+{
+    "redirects": [
+      {
+        "source": "https://portifoliov1-three.vercel.app/",
+        "destination": "https://devfolio-eight-coral.vercel.app/",
+        "permanent": true
+      }
+    ]
+  }
+  
