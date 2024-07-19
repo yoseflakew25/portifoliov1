@@ -49,7 +49,7 @@ const Contact = () => {
 
       
         <button className="rounded-lg border-2 border-solid border-[#64FFDA] bg-transparent text-sm px-16 py-2 mt-4 font-semibold uppercase text-[#64FFDA] transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[4px_4px_0px_#64FFDA] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none">
-        Say Hello!
+        Say Hello!!
       </button>
         </a>
       </div>
